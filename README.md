@@ -1,7 +1,7 @@
 # Hi 👋, I'm Ian Addison-Smith
 ![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=iaddison-smith.iaddison-smith)
 
-- I’m currently working on calculations of different electrostatics forces formulations on molecular systems using the Poisson-Boltzmann equations with boundary element methods (BEM). Here we study how to apply this differents formulations on the context of BEM in order to achieve accurate results with low computation costs
+- I’m currently working on calculations of different electrostatics forces formulations on molecular systems using the Poisson-Boltzmann equations with boundary element methods (BEM). 
 
 $$   \mathbf{F} = \int_\Omega \mathbf{f} d \mathbf{x} = \int_\Omega \nabla \cdot \mathbf{P} d \mathbf{x}=\oint_\Gamma \mathbf{P} \cdot \mathbf{n} d \mathbf{x} $$
 
