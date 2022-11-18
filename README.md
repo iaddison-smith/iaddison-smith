@@ -1,13 +1,21 @@
 # Hi 👋, I'm Ian Addison-Smith
 ![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=iaddison-smith.iaddison-smith)
 
-- I’m currently working on electrostatics forces calculation on molecular systems using the Poisson-Boltzmann equations with boundary element methods. 
+- I’m currently working on calculations of different electrostatics forces formulations on molecular systems using the Poisson-Boltzmann equations with boundary element methods (BEM). Here we study how to apply this differents formulations on the context of BEM in order to achieve accurate results with low computation costs
 
-- Latest work!: C.D. Cooper, I. Addison-Smith, H.V. Guzman, [Quantitative electrostatic force tomography for virus capsids in interaction with an approaching nanoscale probe](https://doi.org/10.1039/D2NR02526D) , Nanoscale. 14 (2022) 12232–12237. DOI:10.1039/d2nr02526d
+$$   \mathbf{F} = \int_\Omega \mathbf{f} d \mathbf{x} = \int_\Omega \nabla \cdot \mathbf{P} d \mathbf{x}=\oint_\Gamma \mathbf{P} \cdot \mathbf{n} d \mathbf{x} $$
 
-![Nanoscale2022](https://github.com/iaddison-smith/iaddison-smith/blob/main/poc_2_462x335.png?raw=true)
+$$    P_{ij} = \varepsilon E_{i} E_{j}-\frac{1}{2} \varepsilon E_k E_k \delta_{i j}-\frac{1}{2} \varepsilon \kappa^{2} \phi^{2} \lambda \delta_{i j} \quad \quad f_{i}= \rho_{f} E_{i} -\frac{1}{2} E_{k}E_{k} \frac{\partial \varepsilon}{\partial x_{i}}-\frac{1}{2} \epsilon \kappa^{2} \phi^{2}  \frac{\partial \lambda}{\partial x_{i}} $$
 
-- I’m currently learning on applied statistics and machine learning models, focused on applications in industry
+- **Latest work!** : C.D. Cooper, I. Addison-Smith, H.V. Guzman, [Quantitative electrostatic force tomography for virus capsids in interaction with an approaching nanoscale probe](https://doi.org/10.1039/D2NR02526D) , Nanoscale. 14 (2022) 12232–12237. DOI:10.1039/d2nr02526d.
+
+
+<img align="right" src="https://github.com/iaddison-smith/iaddison-smith/blob/main/poc_2_462x335.png?raw=true">
+
+<!---
+![Nanoscale2022](https://github.com/iaddison-smith/iaddison-smith/blob/main/poc_2_462x335.png?raw=true){width="800" height="600" style="display: block; margin: 0 auto" }
+-->
+- I’m currently learning on applied statistics and machine learning models, focused on industrial applications and computational mechanics
 
 <!---
 - 👯 I’m looking to collaborate on ...
@@ -21,4 +29,4 @@
 
 # How to reach me
 <a href="https://www.linkedin.com/in/ian-addison-smith-a4abb4180/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:ianaddisonsmith@gmail.com"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="mailto:ian.addison-smith@sansano.usm.cl"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp; 
