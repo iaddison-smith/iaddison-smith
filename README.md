@@ -1,13 +1,18 @@
 # Hi 👋, I'm Ian Addison-Smith
-![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=iaddison-smith.iaddison-smith)
 
-- I’m currently working on calculations of different electrostatics forces formulations on molecular systems using the Poisson-Boltzmann equations with boundary element methods (BEM). 
+- MSc student in Mechanical Engineering at Universidad de Chile
+  
+- My research interests:
+  - Applications of machine learning / Deep learning on industry problems and computational mechanics
+  - Data driven dynamical systems applications on fluids mechanics
+  - Calculations of different electrostatics forces formulations on molecular systems using the Poisson-Boltzmann equations with boundary element methods (BEM).
 
 $$   \mathbf{F} = \int_\Omega \mathbf{f} d \mathbf{x} = \int_\Omega \nabla \cdot \mathbf{P} d \mathbf{x}=\oint_\Gamma \mathbf{P} \cdot \mathbf{n} d \mathbf{x} $$
 
 $$    P_{ij} = \varepsilon E_{i} E_{j}-\frac{1}{2} \varepsilon E_k E_k \delta_{i j}-\frac{1}{2} \varepsilon \kappa^{2} \phi^{2} \lambda \delta_{i j} \quad \quad f_{i}= \rho_{f} E_{i} -\frac{1}{2} E_{k}E_{k} \frac{\partial \varepsilon}{\partial x_{i}}-\frac{1}{2} \epsilon \kappa^{2} \phi^{2}  \frac{\partial \lambda}{\partial x_{i}} $$
 
-- **Latest work!** : C.D. Cooper, I. Addison-Smith, H.V. Guzman, [Quantitative electrostatic force tomography for virus capsids in interaction with an approaching nanoscale probe](https://doi.org/10.1039/D2NR02526D) , Nanoscale. 14 (2022) 12232–12237. DOI:10.1039/d2nr02526d.
+- **Latest work!** : Addison-Smith, I.; Guzman, H. V.; Cooper, C. D. [Accurate Boundary Integral Formulations for the Calculation of Electrostatic Forces with an Implicit-Solvent Model](https://doi.org/10.1021/acs.jctc.3c00021). Journal of Chemical Theory and Computation, 2023, 19, 2996–3006. DOI:10.1021/acs.jctc.3c00021. 
+- C.D. Cooper, I. Addison-Smith, H.V. Guzman, [Quantitative electrostatic force tomography for virus capsids in interaction with an approaching nanoscale probe](https://doi.org/10.1039/D2NR02526D) , Nanoscale. 14 (2022) 12232–12237. DOI:10.1039/d2nr02526d.
 
 
 <img align="right" src="https://github.com/iaddison-smith/iaddison-smith/blob/main/poc_2_462x335.png?raw=true">
@@ -15,7 +20,6 @@ $$    P_{ij} = \varepsilon E_{i} E_{j}-\frac{1}{2} \varepsilon E_k E_k \delta_{i
 <!---
 ![Nanoscale2022](https://github.com/iaddison-smith/iaddison-smith/blob/main/poc_2_462x335.png?raw=true){width="800" height="600" style="display: block; margin: 0 auto" }
 -->
-- I’m currently learning on applied statistics and machine learning models, focused on industrial applications and computational mechanics
 
 <!---
 - 👯 I’m looking to collaborate on ...
