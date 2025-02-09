@@ -7,7 +7,7 @@
   - Data driven dynamical systems applications on fluids mechanics
   - Calculations of different electrostatics forces formulations on molecular systems using the Poisson-Boltzmann equations with boundary element methods (BEM).
 
-$$   \mathbf{F} = \int_\Omega \mathbf{f} d \mathbf{x} = \int_\Omega \nabla \cdot \mathbf{P} d \mathbf{x}=\oint_\Gamma \mathbf{P} \cdot \mathbf{n} d \mathbf{x} $$
+$$   \mathbf{F} = \int_{\Omega} \mathbf{f} d \mathbf{x} = \int_{\Omega} \nabla \cdot \mathbf{P} d \mathbf{x}=\oint_{\Gamma} \mathbf{P} \cdot \mathbf{n} d \mathbf{x} $$
 
 $$    P_{ij} = \varepsilon E_{i} E_{j}-\frac{1}{2} \varepsilon E_k E_k \delta_{i j}-\frac{1}{2} \varepsilon \kappa^{2} \phi^{2} \lambda \delta_{i j} \quad \quad f_{i}= \rho_{f} E_{i} -\frac{1}{2} E_{k}E_{k} \frac{\partial \varepsilon}{\partial x_{i}}-\frac{1}{2} \epsilon \kappa^{2} \phi^{2}  \frac{\partial \lambda}{\partial x_{i}} $$
 
